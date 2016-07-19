@@ -4,7 +4,8 @@
   "description": "Playground for Angular UI Router",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --port 8000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Weizilla/angular-ui-router-test/issues"
   },
-  "homepage": "https://github.com/Weizilla/angular-ui-router-test#readme"
+  "homepage": "https://github.com/Weizilla/angular-ui-router-test#readme",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "file-loader": "^0.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
